@@ -6,26 +6,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android: android:gravity="center"
+    android:gravity="center"
+    android:layout_margin="20dp"
     tools:context=".MainActivity">
 
-    <TextView
+    <ImageView
+        android:id="@+id/logoGodGame"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src ="@drawable/logo_god_of_games"
+        />
+
+
+    <EditText
         android:id="@+id/editTextUsername"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:hint="Username"
         />
 
-    <TextView
+    <EditText
         android:id="@+id/editTextPassword"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:hint="Digite sua senha"
         />
 
     <Button
         android:id="@+id/buttonLogin"
-        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="Login"
         />

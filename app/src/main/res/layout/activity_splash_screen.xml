@@ -9,12 +9,13 @@
     android:gravity="center"
     tools:context=".SplashScreenActivity">
 
-    <TextView
-        android:id="@+id/splash_screen"
+
+    <ImageView
+        android:id="@+id/logoGodGame"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="splash"
-        android:gravity="center" />
+        android:src ="@drawable/logo_god_of_games"
+        />
 
 
 </LinearLayout>
